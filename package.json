@@ -1,0 +1,22 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A modern, full-stack realtime chat application built with **React + Vite**, **MongoDB**, **Express**, **TailwindCSS + DaisyUI + PostCSS**, and **Socket.io** for realtime communication. This project is designed to be scalable, responsive, and user-friendly, offering a clean UI and smooth chatting experience similar to WhatsApp/Telegram.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm intall --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnehaKhadtare07/Chat-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SnehaKhadtare07/Chat-App/issues"
+  },
+  "homepage": "https://github.com/SnehaKhadtare07/Chat-App#readme"
+}
